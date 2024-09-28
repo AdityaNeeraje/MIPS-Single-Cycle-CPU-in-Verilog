@@ -10,6 +10,7 @@ To execute the Verilog code, follow these steps:
 1. Open a terminal in the project directory.
 2. Run the following command to compile the Verilog files:
    ```bash
-   iverilog -o output_name *.v
+   iverilog -o test *.v
+   ./test
 
 This automatically tests and outputs the result of a register-register add instruction, a conditional branch (which here should evaluate to true), an unconditional jump and load and store word.
